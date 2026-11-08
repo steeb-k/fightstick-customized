@@ -9,7 +9,7 @@ It's built around parts you can buy anywhere: Sanwa-style 30 mm snap-in buttons,
 of the many clones), and a GP2040-CE "RP2040 Advanced Breakout" board for USB. No supports needed for either
 part.
 
-![Exploded view](exploded_plain_tray.png)
+<img src="exploded_assembly.webp" alt="Assembly animation: both bottom cases coming together" width="100%">
 
 ## What's in the box
 
@@ -20,6 +20,16 @@ Three print files are the "official" ones:
 | `Arcade-stick_top_v7.stl` | The top shell. Six 30 mm buttons on the face, two more through the right end wall, two 24 mm buttons through the left wall, and the joystick. The GP2040-CE board hangs under the top on four posts. |
 | `Arcade-stick_bottom_v7.stl` | The plain bottom tray. Has a grid of pockets in the floor that you can fill with pennies and resin for weight. A USB cable comes out a slot in the back. |
 | `Arcade-stick_bottom_board_v1.stl` | An alternate bottom where the board sits on the floor and its USB-C and USB-B ports poke straight out the back wall. No cable inside the case. Use this one *instead of* the plain tray, with the same top. |
+
+Here's how each one goes together. Left is the plain tray with the board hanging under the top; right is the
+board base with the board on the floor and the ports out the back. The brass bits are heat-set inserts and the
+dotted lines are screws.
+
+| Plain tray | Board base |
+| --- | --- |
+| ![Exploded view, plain tray](exploded_plain_tray.png) | ![Exploded view, board base](exploded_board_base.png) |
+
+If the animation up top isn't playing for you, `exploded_assembly.mp4` is the same thing as a plain video.
 
 Then there are two samples in `samples/`, mostly to show what the script can do:
 
